@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let value = 5.4
+        print("My value is \(value)")
         print("Hello World! I don't really want to destroy you.")
     }
 
