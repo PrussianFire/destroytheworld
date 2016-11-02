@@ -12,10 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let value = 5.4
-        print("My value is \(value)")
+        let number = 5.4
+        print("My value is \(number)")
         print("Hello World! I don't really want to destroy you.")
     }
+    @IBOutlet weak var value: UILabel!
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
